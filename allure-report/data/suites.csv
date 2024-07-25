@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 21 21:19:17 IST 2024","Sun Jul 21 21:19:24 IST 2024","6838","chromium","ClientAppPO.spec.js","","","","@E2E Login to checkout End to End ZARA COAT 3",""
