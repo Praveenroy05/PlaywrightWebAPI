@@ -37,7 +37,7 @@ npm install
 ```sh
 npx playwright test tests/RegisterAndLogin.spec.js
 OR
-npx playwright registerAndLogin
+npm run registerAndLogin
 ```
 ## To Run the framework test cases run the following command
 
@@ -49,6 +49,8 @@ npx playwright regression OR refer the below script
     "registerAndLogin": "npx playwright test tests/RegisterAndLogin --headed",
     "APITests": "npx playwright test --grep @API"
   },
+
+  use: npm run <scripts-key>
 
   ```
 

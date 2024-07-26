@@ -6,7 +6,7 @@
   "scripts": {
     "regression": "npx playwright test --grep @E2E --headed",
     "registerAndLogin": "npx playwright test tests/RegisterAndLogin --headed",
-    "APITests": "npx playwright test --grep @API"
+    "apiTests": "npx playwright test tests/WebAPI --grep @API"
   },
   "keywords": [],
   "author": "",
