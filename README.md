@@ -32,14 +32,14 @@ cd <repository-name>
 ```sh
 npm install
 ```
-# To Run normal playwright script for registration and Login Run the below command
+## To Run normal playwright script for registration and Login Run the below command
 
 ```sh
 npx playwright test tests/RegisterAndLogin.spec.js
 OR
 npx playwright registerAndLogin
 ```
-# To Run the framework test cases run the following command
+## To Run the framework test cases run the following command
 
 ```sh
 npx playwright regression OR refer the below script 
